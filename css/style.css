@@ -1,0 +1,138 @@
+  body{
+    margin:0;
+    padding:0;
+
+  }
+  #foto1{
+    width:100%;
+  }
+  header{
+    background: url('../img/image_first.jpg') repeat 0 0;
+    overflow:hidden;
+    min-height:150px;
+    background-size: cover;
+    background-position:center center;
+  }
+  header .header-wrapper .title h1{
+    color:#ffffff;
+    font-family:arial, helvetica, sans-serif;
+    padding:0;
+  }
+  .header-wrapper{
+    width:90%;
+    margin:auto;
+  }
+  .title{
+    float:left;
+  }
+  .mainmenu{
+    float:right;
+  }
+  .mainmenu ul{
+    list-style:none;
+    padding-top:15px;
+  }
+  .mainmenu ul li{
+    display:inline;
+    padding:200px 0px 100px 20px;
+  }
+  .mainmenu ul li a {
+    color:white;
+    text-decoration:none;
+  }
+  .mainmenu ul li a:hover {
+    color:#aaaaaa;
+  }
+  .colom {
+    width:25%;
+    float:left;
+  }
+ footer {
+   background: #181b2a;
+   overflow:hidden;
+   min-height:100px;
+   clear: both;
+ }
+
+ .footer-wrapper ul li a{
+   color:#aaaaaa;
+   text-decoration: none;
+ }
+ .footer-wrapper ul li a:hover{
+   color: #ffffff;
+ }
+  .footer-wrapper {
+    width: 90%;
+    margin:auto;
+  }
+  .footer-wrapper ul{
+    text-decoration: none;
+    list-style:none;
+    padding:0px;
+  }
+  .footer-wrapper ul li{
+    padding:0px 0px 15px 0px;
+  }
+  .footer-wrapper h3 {
+    color:#ffffff;
+  }
+  .isi-wrapper{
+    width: 90%;
+    margin: auto;
+  }
+  .icon{
+    width: 20%;
+    float: left;
+    color:#f6f6f6;
+  }
+  .container{
+    background: #171936;
+    margin: 10px;
+    text-align:center;
+    border-radius: 20px;
+  }
+  .home-icon a {
+    text-decoration: none;
+    list-style:none;
+    padding:0px;
+    color:#f6f6f6;
+
+  }
+  .icon h4 a : hover {
+    color:#aaaaaa;
+  }
+  @media (max-width: 768px) {
+    .icon{
+      width:50%;
+    }
+  }
+  @media (max-width: 600px) {
+    .icon{
+      width: 100%
+    }
+  }
+ .icon h4 {
+   padding-top:15px;
+   text-align: center;
+   color:#f6f6f6;
+
+ }
+ .icon p {
+  padding:0 10px 20px 10px;
+ }
+ h2 {
+   text-align:center;
+   border-bottom: 2px solid black;
+   padding-bottom:15px ;
+   display:block;
+   font-family:calibri;
+   text-transform: uppercase;
+ }
+ .copyright{
+   clear: both;
+   padding-right: 100px;
+   text-align:right;
+ }
+.poto img{
+  width :50%;
+}
